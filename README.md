@@ -1,7 +1,7 @@
 # Project 1: Static Website Hosting with AWS S3 + CloudFront
 
 > Day 1 of 30 Day DevOps HandsOn Challenge  
-> *Live URL:* https://d3grv3lzzu4qgs.cloudfront.net  
+> *Live URL:* https://d3gcv5lccu4qss.cloudfront.net/
 > *GitHub Repo:* https://github.com/amtulsaboor/Project-1-static-website-s3-cloudfront
 
 ## 📋 Project Overview

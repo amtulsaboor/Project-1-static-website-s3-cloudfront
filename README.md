@@ -30,18 +30,10 @@ mkdir project-1-static-website-s3-cloudfront
 cd project-1-static-website-s3-cloudfront
 3. Create `index.html` file:
 touch index.html
-4. Open `index.html` in a text editor and paste this code:
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Day 1: S3 + CloudFront</title>
-</head>
-<body>
-    <h1>Project 1: Static Website Hosting</h1>
-    <h2>Host a website on S3 with CloudFront</h2>
-    <p>Deployed by Amtul Saboor</p>
-</body>
-</html>
+4. Open `index.html` in a text editor and add the following code:
+
+![index.html code](5.png)
+
 5. Save the file.
 
 ### Step 2: Initialize Git and First Commit
@@ -112,9 +104,9 @@ Cmd + Shift + R
 # Windows/Linux  
 Ctrl + Shift + R
 ### Step 9: Push Screenshots and README to GitHub
-1. Save 4 screenshots as `1.png`, `2.png`, `3.png`, `4.png` in project folder
+1. Save screenshots as `1.png`, `2.png`, `3.png`, `4.png`, `5.png` in project folder
 2. Stage all images:
-git add 1.png 2.png 3.png 4.png
+git add 1.png 2.png 3.png 4.png 5.png
 3. Commit images:
 git commit -m "add project screenshots"
 4. Push to GitHub:
@@ -150,7 +142,8 @@ project-1-static-website-s3-cloudfront/
 ├── 1.png
 ├── 2.png
 ├── 3.png
-└── 4.png
+├── 4.png
+└── 5.png
 ## 🔗 Project Links
 - *Live Site:* https://d3grv3lzzu4qgs.cloudfront.net
 - *Source Code:* https://github.com/amtulsaboor/Project-1-static-website-s3-cloudfront

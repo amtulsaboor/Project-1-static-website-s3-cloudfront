@@ -30,7 +30,7 @@ mkdir project-1-static-website-s3-cloudfront
 cd project-1-static-website-s3-cloudfront
 3. Create `index.html` file:
 touch index.html
-4. Open `index.html` in a text editor and add basic HTML:
+4. Open `index.html` in a text editor and paste this code:
 <!DOCTYPE html>
 <html>
 <head>
@@ -39,7 +39,7 @@ touch index.html
 <body>
     <h1>Project 1: Static Website Hosting</h1>
     <h2>Host a website on S3 with CloudFront</h2>
-    <p>Deployed by Amtal Saboor</p>
+    <p>Deployed by Amtul Saboor</p>
 </body>
 </html>
 5. Save the file.
@@ -51,8 +51,6 @@ git init
 git add index.html
 3. Commit with message:
 git commit -m "Day1: S3+CloudFront static hosting project"
-![Git Init](1.png)
-
 ### Step 3: Create GitHub Repository and Push Code
 1. Create new public repository on GitHub named: `Project-1-static-website-s3-cloudfront`
 2. Do not initialize with README, .gitignore, or license
@@ -63,8 +61,6 @@ git remote add origin https://github.com/amtulsaboor/Project-1-static-website-s3
 git branch -M main
 6. Push code to GitHub. Use Personal Access Token when prompted for password:
 git push -u origin main
-![Git Push](2.png)
-
 ### Step 4: Create Private S3 Bucket
 1. Log in to AWS Console → Navigate to S3
 2. Click `Create bucket`
@@ -82,7 +78,6 @@ git push -u origin main
 3. Open URL in browser or Incognito window
 4. *Expected result:* XML error page with `<Code>AccessDenied</Code>`
 5. This confirms the bucket is private and not publicly accessible
-![S3 Access Denied](3.png)
 
 ### Step 6: Create CloudFront Distribution with OAC
 1. Navigate to CloudFront → `Create distribution`
@@ -110,9 +105,12 @@ git push -u origin main
 ### Step 8: Test Live Website
 1. Open `https://d3grv3lzzu4qgs.cloudfront.net` in browser
 2. *Expected result:* Your `index.html` content loads with HTTPS lock icon
-3. If you see `403 Forbidden`, wait 3 more minutes and hard refresh: `Ctrl + Shift + R` or `Cmd + Shift + R`
-![Live Site](4.png)
+3. If you see `403 Forbidden`, wait 3 more minutes and hard refresh:
+# Mac
+Cmd + Shift + R
 
+# Windows/Linux  
+Ctrl + Shift + R
 ### Step 9: Push Screenshots and README to GitHub
 1. Save 4 screenshots as `1.png`, `2.png`, `3.png`, `4.png` in project folder
 2. Stage all images:
